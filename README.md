@@ -204,13 +204,85 @@ signal rather than an inflated, unrealistic dataset.
 
 ---
 
-## 10. Screenshots
+## 10. Live Demo
 
-*(Add screenshots of the Dashboard, Segmentation, Prediction, Recommendation,
-and Risk pages here after running the app locally.)*
+🚀 **Try the deployed application:**
 
-- `screenshots/dashboard.png`
-- `screenshots/segmentation.png`
-- `screenshots/prediction.png`
-- `screenshots/recommendations.png`
-- `screenshots/risk.png`
+👉 https://ecommerce-customer-intelligence-0.streamlit.app/
+
+The application provides an interactive interface for:
+- Business Intelligence Dashboard
+- Customer Segmentation
+- Purchase Prediction
+- Product Recommendations
+- Customer Risk / Churn Analysis
+
+---
+
+## 11. Application Screenshots
+
+### Business Intelligence Dashboard
+
+![Dashboard](screenshots/Screenshot:dashboard.png)
+
+### Customer Segmentation
+
+![Customer Segmentation](screenshots/Screenshot:customer_segmentation.png)
+
+### Purchase Prediction
+
+![Purchase Prediction](screenshots/Screenshot:Purchase_Prediction.png)
+
+### Product Recommendations
+
+![Product Recommendations](screenshots/Screenshot:product_recommendation.png)
+
+### Customer Risk / Churn Analysis
+
+![Customer Risk](screenshots/Screenshot:customer_risk.png)
+
+---
+
+## 12. Key Business Insights
+
+The system transforms raw e-commerce behavioural data into actionable business intelligence.
+
+### Customer Segmentation
+Identifies customer groups based on purchasing behaviour, engagement and value, helping businesses target different customer segments with appropriate strategies.
+
+### Purchase Prediction
+Machine learning models estimate the probability that a customer will complete a purchase based on behavioural signals such as product views, cart activity and checkout behaviour.
+
+### Customer Risk Analysis
+Customers are assigned High, Medium or Low risk scores using behavioural and RFM-style metrics, helping businesses identify customers who may require retention campaigns.
+
+### Product Recommendations
+A content-based recommendation engine uses TF-IDF and cosine similarity to recommend products based on customer interests and previously viewed products.
+
+---
+
+## 13. Project Highlights
+
+- End-to-end Data Science pipeline
+- Exploratory Data Analysis
+- Feature Engineering
+- K-Means Customer Segmentation
+- Logistic Regression
+- Random Forest
+- XGBoost
+- RFM-style Customer Risk Scoring
+- TF-IDF Product Recommendation
+- SQLite Database
+- Interactive Plotly Visualisations
+- Streamlit Dashboard
+- Automated model selection using ROC-AUC
+- Unit testing with PyTest
+
+---
+
+## 14. Author
+
+**Mateen Akhtar**
+
+B.Tech Computer Science & Engineering  
+Data Science & Artificial Intelligence
