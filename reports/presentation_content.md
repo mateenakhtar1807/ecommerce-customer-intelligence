@@ -7,8 +7,8 @@
 ### Slide 1 — Title
 **Bullets:**
 - E-Commerce Customer Intelligence & Purchase Prediction System Using Machine Learning
-- [Your Name] | [Roll No.] | B.Tech CSE (Data Science & AI), 3rd Year
-- [College Name] | [Date]
+- Mateen Akhtar | [2400100882 | B.Tech CSE (Data Science & AI), 3rd Year
+- Integral University| 18/08/26
 
 **Visual:** Clean title slide, project logo/icon (shopping bag or chart icon).
 
