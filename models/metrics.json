@@ -1,0 +1,61 @@
+{
+  "best_model": "Random Forest",
+  "all_models": [
+    {
+      "model": "Random Forest",
+      "accuracy": 0.77875,
+      "precision": 0.30522088353413657,
+      "recall": 0.45103857566765576,
+      "f1_score": 0.36407185628742517,
+      "roc_auc": 0.7226792246030456,
+      "cv_roc_auc_mean": 0.7335531027018777,
+      "cv_roc_auc_std": 0.012647141426861911
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6741666666666667,
+      "precision": 0.23976608187134502,
+      "recall": 0.6083086053412463,
+      "f1_score": 0.34395973154362414,
+      "roc_auc": 0.7206985879513428,
+      "cv_roc_auc_mean": 0.7494137475752478,
+      "cv_roc_auc_std": 0.011933376976354378
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.75,
+      "precision": 0.2604735883424408,
+      "recall": 0.42433234421364985,
+      "f1_score": 0.3227990970654628,
+      "roc_auc": 0.6875297562968279,
+      "cv_roc_auc_mean": 0.7143984157955218,
+      "cv_roc_auc_std": 0.011361244965796487
+    }
+  ],
+  "training_rows": 12000,
+  "train_size": 9600,
+  "test_size": 2400,
+  "purchase_rate": 0.1405,
+  "cluster_summary": [
+    {
+      "cluster": 3,
+      "segment_name": "High Value Customers",
+      "size": 2007
+    },
+    {
+      "cluster": 1,
+      "segment_name": "Loyal Customers",
+      "size": 575
+    },
+    {
+      "cluster": 0,
+      "segment_name": "Potential Customers",
+      "size": 5894
+    },
+    {
+      "cluster": 2,
+      "segment_name": "At-Risk Customers",
+      "size": 3524
+    }
+  ]
+}
